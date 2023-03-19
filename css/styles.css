@@ -550,30 +550,83 @@ ul.menu {
   width: 100%;
   height: 100%;
   background-color: #fff;
+}
+.menu-container {
+  padding-left: 40px;
+  margin-right: auto;
   padding-bottom: 40px;
+  padding-top: 80px;
 }
 .modal-menu-list {
-  margin-top: 80px;
-  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+.modal-menu-link {
+  color: var(--main-color);
 }
 .menu-address-list {
-  margin-left: 40px;
   margin-top: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.menu-contact-phone {
+  width: 100%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+.menu-contact-mail {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .modal-icons-soc-list {
   display: flex;
   gap: 56px;
-  margin-left: 40px;
   margin-top: 48px;
-  margin-right: auto;
 }
 .modal-icons {
   width: 24px;
   height: 24px;
 }
 .modal-icons-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  background-color: var(--buttons-color);
+  fill: #ffffff;
+}
+.menu-modal-btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  margin: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 .is-hidden {
   opacity: 0;
