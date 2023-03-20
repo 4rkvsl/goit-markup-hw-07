@@ -52,7 +52,7 @@
   }
   /* Our-team-section */
   .container {
-    max-width: 448px;
+    width: 100%;
   }
   .our-team-section {
     padding: 96px 0px;
@@ -112,6 +112,9 @@
     padding-bottom: 0px;
   }
   /* Hero-section */
+  .modal {
+    width: 396px;
+  }
   .hero-section {
     background-image: linear-gradient(
         to right,
@@ -157,6 +160,9 @@
     column-gap: 24px;
   }
   /* Customers-section */
+  .customers-list-item {
+    width: calc((100% - 24px) / 3);
+  }
   .customers-list {
     column-gap: 24px;
   }
@@ -218,6 +224,10 @@
       url(../images/people-office-1@desktop.jpg);
   }
   /* Features-section */
+  .features-title {
+    font-weight: 500;
+    font-size: 20px;
+  }
   .features-section {
     padding: 120px 0px;
   }

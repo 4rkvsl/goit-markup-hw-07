@@ -678,7 +678,7 @@ ul.menu {
   pointer-events: none;
 }
 .modal {
-  width: 392px;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
