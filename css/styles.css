@@ -264,6 +264,7 @@ ul.menu {
   color: var(--main-color);
 }
 .features-title-our-team {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -272,6 +273,7 @@ ul.menu {
 }
 .features-text {
   text-align: start;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
