@@ -6,7 +6,7 @@
   --fourth-color: #f4f4fd;
   --background-main-color: #ffffff;
   --background-secondary-color: #f4f4fd;
-  --footer-text-color: #e7e9fc;
+  --footer-text-color: #f4f4fd;
   --background-buttons-color: #f4f4fd;
   --buttons-color: #4d5ae5;
   --logo-color: #4d5ae5;
@@ -256,7 +256,7 @@ ul.menu {
 }
 .features-title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
@@ -271,7 +271,7 @@ ul.menu {
   color: var(--main-color);
 }
 .features-text {
-  font-weight: 500;
+  text-align: start;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -395,7 +395,7 @@ ul.menu {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-text-color);
+  color: var(--background-main-color);
 }
 .footer-list {
   display: flex;

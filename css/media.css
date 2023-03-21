@@ -15,8 +15,8 @@
     background-color: transparent;
   }
   .modal {
-    width: 392px;
-    height: 586px;
+    width: 100%;
+    height: auto;
   }
   .modal-menu-link:hover,
   .modal-menu-link:focus {
@@ -105,6 +105,20 @@
   .section-paragraph-of-footer {
     text-align: left;
   }
+}
+@media screen and (min-width: 480px) {
+  /* Header */
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
+  .menu-contact-phone {
+    font-size: 36px;
+  }
+  .modal-icons-soc-list {
+    gap: 56px;
+  }
+  /* Footer */
   .subscribe-input {
     width: 398px;
   }
@@ -150,9 +164,6 @@
     flex-direction: row;
     column-gap: 24px;
     row-gap: 72px;
-  }
-  .features-title {
-    font-size: 36px;
   }
   /* Information-section */
   .information-section {
